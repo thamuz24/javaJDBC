@@ -1,10 +1,12 @@
+package practice;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionJDBC {
     private String hostName = "localhost:3306";
-    private String dbName = "quanlydiem";
+    private String dbName = "demo_jdbc";
     private String username = "root";
     private String password = "1";
 
